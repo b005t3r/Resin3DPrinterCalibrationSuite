@@ -28,13 +28,13 @@ However, this is only a rough estimate. For more precise exposure time calibrati
 
 ### Build Plate Results Interpretation
 
-The difference between the thickest and thinnest tile should be approximately 0.1–0.15 mm. If the difference is greater, your build plate may be out of level.
+The difference between the thickest and thinnest tile should be approximately 0.1 to 0.15 mm. If the difference is greater, your build plate may be out of level.
 
-The printed tiles should also be close to 1.5 mm in thickness, ideally slightly above that by 0.1–0.2 mm. If they are too thin, you may encounter layer compression issues, where the bottom layers do not adhere to the build plate correctly.
+The printed tiles should also be close to 1.5 mm in thickness, ideally slightly above that by 0.1 to 0.2 mm. If they are too thin, you may encounter layer compression issues, where the bottom layers do not adhere to the build plate correctly.
 
 # Peg of Calibration: Exposure Time Calibration for Dimensional Accuracy
 
-The Peg of Calibration model includes several calibration features for determining the correct exposure time for dimensional accuracy, as well as the resin’s tensile strength and detail reproduction at that exposure time.
+The Peg of Calibration model includes several calibration features for determining the correct exposure time for dimensional accuracy, as well as the resin's tensile strength and detail reproduction at that exposure time.
 
 ![Peg of Calibration model](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/long_raft.jpg)
 
@@ -48,7 +48,7 @@ After printing the model, snap Peg off the raft and try to fit her into the hole
 
 The -0.02 hole is designed to test for underexposure, the +0.08 hole tests for overexposure, and the middle hole tells you whether your prints are dimensionally accurate. Refer to the [Peg of Calibration Results Interpretation](#peg-of-calibration-results-interpretation) section for more details.
 
-Once you have determined the correct exposure time, you may want to check the other features to better understand the resin’s parameters, such as tensile strength, detail reproduction, and overhang consistency.
+Once you have determined the correct exposure time, you may want to check the other features to better understand the resin's parameters, such as tensile strength, detail reproduction, and overhang consistency.
 
 ![Lollipop Features](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/lollies.jpg)
 
@@ -66,7 +66,7 @@ On the left, you will find three wedge-shaped pieces designed to test how well o
 
 ![Raft](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/raft_1.5mm.jpg)
 
-The final feature is the raft itself. The raft is 1.5 mm thick, so you may want to measure it with digital calipers to check how level your build plate is. If you printed multiple copies of the model, this works similarly to the [build plate calibration test](#build-plate-calibration).
+The final feature is the raft itself. The raft is 1.5 mm thick, so you may want to measure it with digital calipers to check how level your build plate is and whether there is any compression. If you printed multiple copies of the model, this works similarly to the [build plate calibration test](#build-plate-calibration).
 
 Additionally, the flat, featureless part of the raft is designed to be used with RERF-style calibration, allowing you to digitally engrave the exposure value for each model, as shown below:
 
@@ -89,7 +89,7 @@ Try to fit Peg in all three positions. If she:
 
 # Army of Pegs: Exposure Uniformity Calibration
 
-*This step is completely optional and quite OCD. After determining the correct exposure time in one area of the build plate, using a single [Peg of Calibration](#peg-of-calibration-exposure-time-calibration-for-dimensional-accuracy) model, you may want to see how that result compares across the rest of the build plate - if you are a complete lunatic, that is.*
+*This step is completely optional and admittedly a bit OCD. After determining the correct exposure time in one area of the build plate using a single [Peg of Calibration](#peg-of-calibration-exposure-time-calibration-for-dimensional-accuracy) model, you may want to see how that result compares across the rest of the build plate, if you are a complete lunatic, that is.*
 
 Forty-five additional Peg models are provided in this suite. Each model has the same dimensions, but each one is uniquely marked on its flat top side:
 
