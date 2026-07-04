@@ -8,11 +8,11 @@ The models have been optimized to use as little print time and resin as possible
 
 This suite includes a set of nine 1.5 mm-thick tiles. The tiles are intended to be placed as shown below: in the corners, along the edges, and in the center of your build plate, with each tile rotated accordingly. After printing, measure each tile using digital calipers.
 
-![Build Plate Calibration Tile Placement](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/plate.jpg)
+![Build Plate Calibration Tile Placement](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/plate_layout.jpg)
 
-Each tile includes a unique cutout, marked in the image above, allowing you to associate it with the corresponding location on the build plate.
+Each tile includes a unique cutout, marked in the image below, allowing you to associate it with the corresponding location on the build plate.
 
-![Build Plate Calibration Tiles](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/plate_layout.jpg)
+![Build Plate Calibration Tiles](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/plate.jpg)
 
 Additionally, each tile includes a set of identical shallow cutouts that can help you roughly estimate the accuracy of your current exposure time.
 
@@ -89,7 +89,7 @@ Try to fit Peg in all three positions. If she:
 
 # Army of Pegs: Exposure Uniformity Calibration
 
-*This step is completely optional and quite OCD. After determining the correct exposure time in one area of the build plate, using a single [Peg of Calibration](#peg-of-calibration-exposure-time-calibration-for-dimensional-accuracy) model, you may want to see how that result compares across the rest of the build plate — if you are a complete lunatic, that is.*
+*This step is completely optional and quite OCD. After determining the correct exposure time in one area of the build plate, using a single [Peg of Calibration](#peg-of-calibration-exposure-time-calibration-for-dimensional-accuracy) model, you may want to see how that result compares across the rest of the build plate - if you are a complete lunatic, that is.*
 
 Forty-five additional Peg models are provided in this suite. Each model has the same dimensions, but each one is uniquely marked on its flat top side:
 
