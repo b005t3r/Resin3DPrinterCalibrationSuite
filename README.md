@@ -6,11 +6,16 @@ A collection of 3D models (STL and Lychee files) designed for resin 3D printer c
 
 This suite includes a set of nine 1.5 mm-thick tiles. The tiles are intended to be placed as shown below: in the corners, along the edges, and in the center of your build plate, with each tile rotated accordingly. After printing, measure each tile using digital calipers.
 
+![Build Plate Calibration Tile Placement](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/plate.jpg)
+
+
 Each tile includes a unique cutout, marked in the image below, allowing you to associate it with the corresponding location on the build plate.
 
-![Build Plate Calibration Tiles](/img/plate.jpg)
+![Build Plate Calibration Tiles](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/plate_layout.jpg)
 
 Additionally, each tile includes a set of identical shallow cutouts that can help you roughly estimate the accuracy of your current exposure time.
+
+![Build Plate Calibration Tile](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/plate_tile.jpg)
 
 The recessed and raised features on both sides of each tile, such as chevrons and lines, should match in thickness. In other words, the thinnest recessed feature on one end should match the thinnest raised feature on the other end.
 
