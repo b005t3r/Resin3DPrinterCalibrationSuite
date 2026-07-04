@@ -2,7 +2,7 @@
 
 A collection of 3D models (STL and Lychee files) designed for resin 3D printer calibration. The suite includes models for both [build plate calibration](#build-plate-calibration) and [exposure time calibration](#peg-of-calibration-exposure-time-calibration-for-dimensional-accuracy), helping you determine the exposure time at which your prints are overexposed by no more than 0.02 mm in XY thickness, or underexposed by no more than 0.01 mm.
 
-The models have been optimized to use as little print time and resin as possible, while still producing precise results.
+The models have been optimized to use as little print time and resin as possible while still producing precise results.
 
 # Build Plate Calibration
 
@@ -34,7 +34,7 @@ The printed tiles should also be close to 1.5 mm in thickness, ideally slightly 
 
 # Peg of Calibration: Exposure Time Calibration for Dimensional Accuracy
 
-The Peg of Calibration model consists of many calibration features for determining, primarily, the correct exposure time for dimensional accuracy, as well as the resin’s tensile strength and detail reproduction at that exposure time.
+The Peg of Calibration model includes several calibration features for determining the correct exposure time for dimensional accuracy, as well as the resin’s tensile strength and detail reproduction at that exposure time.
 
 ![Peg of Calibration model](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/long_raft.jpg)
 
@@ -46,13 +46,13 @@ After printing the model, snap Peg off the raft and try to fit her into the hole
 
 ![Holes](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/holes.jpg)
 
-Refer to the [Peg of Calibration Results Interpretation](#peg-of-calibration-results-interpretation) section for more details.
+The -0.02 hole is designed to test for underexposure, the +0.08 hole tests for overexposure, and the middle hole tells you whether your prints are dimensionally accurate. Refer to the [Peg of Calibration Results Interpretation](#peg-of-calibration-results-interpretation) section for more details.
 
-Once you have determined the correct exposure time, you may want to check the other features to get a better understanding of the resin’s parameters, such as tensile strength, detail reproduction, and overhang consistency.
+Once you have determined the correct exposure time, you may want to check the other features to better understand the resin’s parameters, such as tensile strength, detail reproduction, and overhang consistency.
 
 ![Lollipop Features](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/lollies.jpg)
 
-Each pair of lollipop-like features tests a different mini-support thickness, with the values printed on the model above each pair. One lollipop has a 0.5 mm ball attached, while the other has a 0.75 mm ball and each "stick" of each lollipop is exactly 1.5mm in length. Most likely, not all of them will print successfully with all resin types and/or lift and retract speed settings.
+Each pair of lollipop-like features tests a different mini-support thickness, with the values printed on the model above each pair. One lollipop has a 0.5 mm ball attached, while the other has a 0.75 mm ball. Each stick is exactly 1.5 mm long. Most likely, not all of them will print successfully with all resin types and/or lift and retract speed settings.
 
 ![Cutouts](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/cutouts.jpg)
 
@@ -81,10 +81,25 @@ If you do not plan to perform RERF calibration, or if your printer does not supp
 ![Calibration](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/calibration.jpg)
 
 Try to fit Peg in all three positions. If she:
-- **fits** in the <span style="color:darkred;">**red**</span> position, you're undexposing by over 0.02 mm; increase your exposure and test again
-- **doesn't fit** in the <span style="color:darkgreen;">**dark green**</span> position, you're overexposing by over 0.04 mm; descrease your exposure and test again
-- **fits** in the <span style="color:darkgreen;">**dark green**</span> position, but **doesn't fit** in the **middle <span style="color:lightgreen;">light green**</span> position, you're overexposing by over 0.02 mm; decrease your exposure slightly and test again (or you might leave it like that if the resin is very flexible and difficult to calibrate)
-- **fits** in the ** middle <span style="color:lightgreen;">**light green**</span> position and  **doesn't fit** in the <span style="color:darkred;">**red**</span> position, your exposure time is correct and your prints should be dimensionally accurate
+
+- **Fits** in the **red** (-0.02) position, you are **underexposing** by more than 0.01 mm. **Increase your exposure time** and test again.
+- **Does not fit** in the **dark green** (+0.08) position, you are **overexposing** by more than 0.04 mm. **Decrease your exposure time** and test again.
+- **Fits** in the **dark green** (+0.08) position, but **does not fit** in the **middle light green** (6 mm) position, you are **overexposing** by more than 0.02 mm. **Decrease your exposure time slightly** and test again. Alternatively, you may leave it as is if the resin is very flexible and difficult to calibrate.
+- **Fits** in the **middle light green** (6 mm) position and **does not fit** in the **red** (-0.02) position, your exposure time is correct and your prints should be dimensionally accurate.
+
+# Army of Pegs: Exposure Uniformity Calibration
+
+*This step is completely optional and quite OCD. After determining the correct exposure time in one area of the build plate, using a single [Peg of Calibration](#peg-of-calibration-exposure-time-calibration-for-dimensional-accuracy) model, you may want to see how that result compares across the rest of the build plate — if you are a complete lunatic, that is.*
+
+Forty-five additional Peg models are provided in this suite. Each model has the same dimensions, but each one is uniquely marked on its flat top side:
+
+![Pegs](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/pegs_cutouts.jpg)
+
+They are intended to be distributed uniformly across the build plate, as shown in the image below, with each marking matched to its corresponding location on the plate:
+
+![Pegs](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/pegs_layout.jpg)
+
+Print them using the previously calibrated exposure time. After printing, use them as described in the [Peg of Calibration Results Interpretation](#peg-of-calibration-results-interpretation) section to check how uniform your exposure is across the entire build plate. Adjust your exposure time if needed.
 
 [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 
