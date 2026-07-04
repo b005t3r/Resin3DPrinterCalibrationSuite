@@ -52,7 +52,7 @@ Once you have determined the correct exposure time, you may want to check the ot
 
 ![Lollipop Features](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/lollies.jpg)
 
-Each pair of lollipop-like features tests a different mini-support thickness, with the values printed on the model above each pair. One lollipop has a 0.5 mm ball attached, while the other has a 0.75 mm ball. Most likely, not all of them will print successfully with all resin types and/or lift and retract speed settings.
+Each pair of lollipop-like features tests a different mini-support thickness, with the values printed on the model above each pair. One lollipop has a 0.5 mm ball attached, while the other has a 0.75 mm ball and each "stick" of each lollipop is exactly 1.5mm in length. Most likely, not all of them will print successfully with all resin types and/or lift and retract speed settings.
 
 ![Cutouts](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/cutouts.jpg)
 
@@ -80,7 +80,11 @@ If you do not plan to perform RERF calibration, or if your printer does not supp
 
 ![Calibration](https://github.com/b005t3r/Resin3DPrinterCalibrationSuite/blob/main/img/calibration.jpg)
 
-### Dimensional Accuracy Results Interpretation
+Try to fit Peg in all three positions. If she:
+- **fits** in the <span style="color:darkred;">**red**</span> position, you're undexposing by over 0.02 mm; increase your exposure and test again
+- **doesn't fit** in the <span style="color:darkgreen;">**dark green**</span> position, you're overexposing by over 0.04 mm; descrease your exposure and test again
+- **fits** in the <span style="color:darkgreen;">**dark green**</span> position, but **doesn't fit** in the **middle <span style="color:lightgreen;">light green**</span> position, you're overexposing by over 0.02 mm; decrease your exposure slightly and test again (or you might leave it like that if the resin is very flexible and difficult to calibrate)
+- **fits** in the ** middle <span style="color:lightgreen;">**light green**</span> position and  **doesn't fit** in the <span style="color:darkred;">**red**</span> position, your exposure time is correct and your prints should be dimensionally accurate
 
 [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 
