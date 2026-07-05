@@ -98,7 +98,7 @@ If you do not plan to perform RERF calibration, or if your printer does not supp
 
 ![Calibration](https://raw.githubusercontent.com/b005t3r/Resin3DPrinterCalibrationSuite/main/img/calibration.jpg)
 
-Try to fit Peg in all three positions. If she:
+Try to fit Peg in all three positions. You are aiming for a fairly snug fit. If she:
 
 - **Fits** in the **red** (-0.02) position, you are **underexposing** by more than 0.01 mm. **Increase your exposure time** and test again.
 - **Does not fit** in the **dark green** (+0.08) position, you are **overexposing** by more than 0.04 mm. **Decrease your exposure time** and test again.
