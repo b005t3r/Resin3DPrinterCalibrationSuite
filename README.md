@@ -1,8 +1,17 @@
 # Resin 3D Printer Calibration Suite
 
-A collection of 3D models (STL and Lychee files) designed for resin 3D printer calibration. The suite includes models for both [build plate calibration](#build-plate-calibration) and [exposure time calibration](#peg-of-calibration-exposure-time-calibration-for-dimensional-accuracy), helping you determine the exposure time at which your prints are overexposed by no more than 0.02 mm in XY thickness, or underexposed by no more than 0.01 mm.
+A collection of 3D models (STL and Lychee files) designed for resin 3D printer calibration. The suite includes models for both [build plate calibration](#build-plate-calibration) and [exposure time calibration](#peg-of-calibration-exposure-time-calibration-for-dimensional-accuracy), helping you determine the exposure time at which your prints become overexposed by no more than 0.02 mm in XY thickness, or underexposed by no more than 0.01 mm.
 
 The models have been optimized to use as little print time and resin as possible while still producing precise results.
+
+## Before You Start
+
+Make sure to use a safe set of printing parameters when calibrating - low speeds, sufficient wait times, enough bottom exposure and layers etc. You want consistency, not speed. Once you've got the results you're happy with, optimize for speed or whatever you're after, but don't make the mistake of doing that before calibrating.
+
+If unsure, use this settings. If you have a large format printer, you might want to increse the lift height by additional 2-3 mm, just to make sure your prints release from the film.
+
+![Printing Parameters](https://raw.githubusercontent.com/b005t3r/Resin3DPrinterCalibrationSuite/main/img/safe_params.jpg)
+
 
 # Build Plate Calibration
 
