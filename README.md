@@ -6,12 +6,11 @@ The models have been optimized to use as little print time and resin as possible
 
 ## Before You Start
 
-Make sure to use a safe set of printing parameters when calibrating - low speeds, sufficient wait times, enough bottom exposure and layers etc. You want consistency, not speed. Once you've got the results you're happy with, optimize for speed or whatever you're after, but don't make the mistake of doing that before calibrating.
+Make sure to use a safe set of printing parameters when calibrating: low speeds, sufficient wait times, enough bottom exposure and enough bottom layers. You want consistency, not speed. Once you get results you are happy with, optimize for speed or any other parameter you are aiming for, but do not make that mistake before calibrating.
 
-If unsure, use this settings. If you have a large format printer, you might want to increse the lift height by additional 2-3 mm, just to make sure your prints release from the film.
+If you are unsure, use these settings. If you have a large-format printer, you may want to increase the lift height by an additional 2 to 3 mm, just to make sure your prints release from the film.
 
 ![Printing Parameters](https://raw.githubusercontent.com/b005t3r/Resin3DPrinterCalibrationSuite/main/img/safe_params.jpg)
-
 
 # Build Plate Calibration
 
