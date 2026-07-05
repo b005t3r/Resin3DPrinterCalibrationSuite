@@ -4,7 +4,7 @@ A collection of 3D models (STL and Lychee files) designed for resin 3D printer c
 
 The models have been optimized to use as little print time and resin as possible while still producing precise results.
 
-## Before You Start
+### Before You Start
 
 Make sure to use a safe set of printing parameters when calibrating: low speeds, sufficient wait times, enough bottom exposure and enough bottom layers. You want consistency, not speed. Once you get results you are happy with, optimize for speed or any other parameter you are aiming for, but do not make that mistake before calibrating.
 
@@ -13,6 +13,12 @@ If you are unsure, use these settings. If you have a large-format printer, you m
 ![Printing Parameters](https://raw.githubusercontent.com/b005t3r/Resin3DPrinterCalibrationSuite/main/img/safe_params.jpg)
 
 *<sup>**Light-off Delay** is often called **Wait Before Print** or **Wait Before Exposure** or **Light-off Time** depending on the printer.</sup>*
+
+### After Printing
+
+**Clean and dry** your prints thoroughly. Make sure there is no residue. If there is, clean and dry them again. **Cure them normally**, and only then test how they fit and measure.
+
+It may be a good idea to keep the prints after testing instead of throwing them away, then test them again after a few days. Most post-curing shrinkage occurs almost immediately after curing, but you may experience some additional shrinkage after a few more days.
 
 # Build Plate Calibration
 
