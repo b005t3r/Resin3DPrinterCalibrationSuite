@@ -12,6 +12,8 @@ If you are unsure, use these settings. If you have a large-format printer, you m
 
 ![Printing Parameters](https://raw.githubusercontent.com/b005t3r/Resin3DPrinterCalibrationSuite/main/img/safe_params.jpg)
 
+*<sup>**Light-off Delay** is often called **Wait Before Print** or **Wait Before Exposure** or **Light-off Time** depending on the printer.</sup>*
+
 # Build Plate Calibration
 
 This suite includes a set of nine 1.5 mm-thick tiles. The tiles are intended to be placed as shown below: in the corners, along the edges, and in the center of your build plate, with each tile rotated accordingly. After printing, measure each tile using digital calipers.
