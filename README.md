@@ -12,7 +12,7 @@ If you are unsure, use these settings. If you have a large-format printer, you m
 
 ![Printing Parameters](https://raw.githubusercontent.com/b005t3r/Resin3DPrinterCalibrationSuite/main/img/safe_params.jpg)
 
-*<sup>**Light-off Delay** is often called **Wait Before Print** or **Wait Before Exposure** or **Light-off Time** depending on the printer.</sup>*
+*<sup>**Note:** **Light-off Delay** is often called **Wait Before Print** or **Wait Before Exposure** or **Light-off Time** depending on the printer.</sup>*
 
 ### After Printing
 
