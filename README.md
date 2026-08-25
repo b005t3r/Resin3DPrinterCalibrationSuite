@@ -8,7 +8,7 @@ The models have been optimized to use as little print time and resin as possible
 
 Make sure to use a safe set of printing parameters when calibrating: low speeds, sufficient wait times, enough bottom exposure and enough bottom layers. You want consistency, not speed. Once you get results you are happy with, optimize for speed or any other parameter you are aiming for, but do not make that mistake before calibrating.
 
-If you are unsure, use these settings. If you have a large-format printer, you may want to increase the lift height by an additional 2 to 3 mm, just to make sure your prints release from the film.
+If you are unsure, use these settings. If you have a large-format printer, you may want to increase the lift height by 2 to 3 mm, just to make sure your prints release from the film. Additionally, you might want to extend the Light-off Delay to 5 seconds for such printers, or if the resin is thick.
 
 ![Printing Parameters](https://raw.githubusercontent.com/b005t3r/Resin3DPrinterCalibrationSuite/main/img/safe_params.jpg)
 
@@ -68,7 +68,7 @@ Once you have determined the correct exposure time, you may want to check the ot
 
 ![Lollipop Features](https://raw.githubusercontent.com/b005t3r/Resin3DPrinterCalibrationSuite/main/img/lollies.jpg)
 
-Each pair of lollipop-like features tests a different mini-support thickness, with the values printed on the model above each pair. One lollipop has a 0.5 mm ball attached, while the other has a 0.75 mm ball. Each stick is exactly 1.5 mm long. Most likely, not all of them will print successfully with all resin types and/or lift and retract speed settings.
+Each pair of lollipop-like features tests a different mini-support thickness, with the values printed on the model above each pair. One lollipop has a 0.5 mm ball attached, while the other has a 0.75 mm ball. Each stick is exactly 1.0 mm long. Most likely, not all of them will print successfully with all resin types and/or lift and retract speed settings.
 
 ![Cutouts](https://raw.githubusercontent.com/b005t3r/Resin3DPrinterCalibrationSuite/main/img/cutouts.jpg)
 
@@ -76,7 +76,7 @@ The recessed and raised features for each set of cutouts should match in thickne
 
 ![Overhang Board](https://raw.githubusercontent.com/b005t3r/Resin3DPrinterCalibrationSuite/main/img/board.jpg)
 
-The small board on one side of the model lets you test how well overhangs are reproduced with your resin. Check whether any of the holes are filled in and whether they have the correct shape. The checkerboard tiles should all touch at the corners and, ideally, have a flat bottom side.
+The small board on one side of the model lets you test how well overhangs are reproduced with your resin. Check whether any of the letters are filled in, and whether they are still readable. The checkerboard tiles should all touch at the corners and, ideally, have a flat underside.
 
 On the left, you will find three wedge-shaped pieces designed to check how well unsupported overhangs print with the resin being tested. The bottom overhang is at 80 degrees, the middle one is at 82.5 degrees, and the top one is at 85 degrees. The top side of each piece should be completely flat and horizontal. The bottom sides may show sagging and/or flaking with more flexible resins and higher angle values, so features like this on your models may require more densely placed supports.
 
